@@ -1,16 +1,29 @@
 /* ==UserStyle==
 @name PTT Large Image
 @description 移除 PTT 網頁版中，圖片的高度限制
-@version 0.1.0
+@version 0.1.1
 @namespace eight04.blogspot.com
 @author eight04 <eight04@gmail.com>
 @homepageURL https://github.com/eight04/ptt-large-image
 @supportURL https://github.com/eight04/ptt-large-image/issues
 @license unlicense
+@preprocessor stylus
+@var checkbox hide-nav "隱藏導航列" 0
 ==/UserStyle== */
 
 @-moz-document domain("ptt.cc") {
   img {
     max-height: none;
+  }
+  if hide-nav {
+    #topbar-container,
+    #navigation-container {
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    #topbar-container:hover,
+    #navigation-container:hover {
+      opacity: 1;
+    }
   }
 }
