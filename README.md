@@ -11,6 +11,10 @@ Installation
 Changelog
 ---------
 
+* 0.1.1 (Jun 19, 2018)
+
+  - Add: hide-nav option.
+
 * 0.1.0 (May 5, 2018)
 
   - Migrate from USO to usercss.
