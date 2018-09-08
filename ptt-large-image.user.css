@@ -12,6 +12,9 @@
 ==/UserStyle== */
 
 @-moz-document domain("ptt.cc") {
+  .richcontent {
+    max-width: none;
+  }
   img {
     max-height: none;
   }
