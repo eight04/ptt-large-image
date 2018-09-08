@@ -11,6 +11,10 @@ Installation
 Changelog
 ---------
 
+* 0.1.2 (Sep 8, 2018)
+
+  - Fix: remove the max-width of richcontent.
+
 * 0.1.1 (Jun 19, 2018)
 
   - Add: hide-nav option.
