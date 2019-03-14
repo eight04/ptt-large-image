@@ -11,6 +11,10 @@ Installation
 Changelog
 ---------
 
+* 0.1.3 (Mar 14, 2019)
+
+  - Fix: max-height is limited.
+
 * 0.1.2 (Sep 8, 2018)
 
   - Fix: remove the max-width of richcontent.
