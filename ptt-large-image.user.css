@@ -15,8 +15,9 @@
   .richcontent {
     max-width: none;
   }
-  img {
-    max-height: none;
+  .pwe-richcontent-resize,
+  .pwe-richcontent-resize img {
+    max-height: none!important;
   }
   if hide-nav {
     #topbar-container,
