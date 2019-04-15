@@ -16,7 +16,8 @@
     max-width: none;
   }
   .pwe-richcontent-resize,
-  .pwe-richcontent-resize img {
+  .pwe-richcontent-resize img,
+  .richcontent img {
     max-height: none!important;
   }
   if hide-nav {
