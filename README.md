@@ -11,6 +11,10 @@ Installation
 Changelog
 ---------
 
+* 0.1.4 (Apr 15, 2019)
+
+  - Fix: remove image height limit.
+
 * 0.1.3 (Mar 14, 2019)
 
   - Fix: max-height is limited.
